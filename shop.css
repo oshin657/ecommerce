@@ -31,24 +31,19 @@
 }
 
 
-#shopit button{
-    width: 150px;
-    height: 50px;
-    margin-top: 75px;
+#now button{
+    padding: 20px;
 }
 
-#shopit button a{
+#now button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+#now button a{
     text-decoration: none;
     color: black;
-}
-
-#shopit button a:hover{
-    text-decoration: none;
-    color: white;
-}
-
-#shopit button:hover{
-    background-color: black;
+    font-weight: bolder;
 }
 
 #grid{
