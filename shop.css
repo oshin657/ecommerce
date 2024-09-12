@@ -211,6 +211,294 @@ footer{
     font-style: italic;
 }
 
+@media (max-width: 414px) {
+    #shopit {
+        width: 90%; 
+        padding: 15px; 
+        top: -60px;
+        left: 170px; 
+        transform: translate(-50%, -50%); 
+        background: rgba(0, 0, 0, 0.6); 
+        border-radius: 12px; 
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);  #grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto; 
+            gap: 15px; 
+        }
+    
+        #mewa, .shoes {
+            grid-column: span 1; 
+            margin: 0; 
+            border-radius: 12px; 
+            overflow: hidden;
+        }
+    
+        #mewa img, .smallbox {
+            width: 100%; 
+            height: auto; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+    
+        #text {
+            position: relative; 
+            margin-top: 20px; 
+            margin-left: 0; 
+            text-align: center; 
+            color: gray;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5); 
+            border-radius: 12px; 
+        }
+    
+        #text p {
+            font-size: 16px; 
+            margin: 0; 
+        }
+    
+        #text h1 {
+            font-size: 32px;
+            font-weight: bold;
+            color: white; 
+            margin: 10px 0; 
+        }
+    
+        #text h5 {
+            font-size: 18px;
+            color: white; 
+            margin: 10px 0; 
+            cursor: pointer; 
+            transition: color 0.3s ease;
+        }
+    
+        #text h5:hover {
+            color: skyblue;
+        }
+    
+        .text2 {
+            position: relative; 
+            margin-top: 20px; 
+            text-align: center; 
+            color: gray;
+            padding: 15px; 
+            background: rgba(0, 0, 0, 0.5); 
+            border-radius: 12px; 
+        }
+    
+        .text2 p {
+            font-size: 16px;
+            margin: 0; 
+        }
+    
+        .text2 h1 {
+            font-size: 28px; 
+            color: white; 
+            font-weight: bold;
+            margin: 10px 0; 
+        }
+    
+        .text2 h5 {
+            font-size: 18px; 
+            color: white; 
+            margin: 10px 0; 
+            cursor: pointer; 
+            transition: color 0.3s ease;
+        }
+    
+        .text2 h5:hover {
+            color: skyblue; 
+        }
+    }
+
+    #shopit h1 {
+        font-size: 32px; 
+        margin: 0 0 10px 0; 
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
+    }
+
+    #shopit p {
+        font-size: 14px;
+        margin: 10px 0 20px 0; 
+        line-height: 1.6; 
+    }
+
+    #now button {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        padding: 12px 20px;
+        font-size: 15px;
+        border: none;
+        background-color: #f39c12; 
+        color: white;
+        border-radius: 8px; 
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    #now button:hover {
+        background-color: #e67e22; 
+        transform: scale(1.05); 
+    }
+
+    #now button a {
+        color: white;
+        font-weight: bolder;
+    }
+    
+    #grid {
+        grid-template-columns: 2fr 1fr; 
+        grid-template-rows: auto;
+    }
+
+    #mewa {
+        position: relative; 
+    }
+
+    #mewa img {
+        width: 100%; 
+    }
+
+    #text {
+        position: absolute;
+        right: 20px; 
+        top: 50%;
+        transform: translateY(-110%); 
+        color: gray;
+        z-index: 10; 
+        font-size: 14px; 
+        text-align: right; 
+    }
+
+    #text h1 {
+        font-size: 28px; 
+    }
+
+    #text p {
+        font-size: 14px;
+    }
+
+    #text h5 {
+        font-size: 16px; 
+    }
+
+    .smallbox {
+        width: 100%;
+    }
+
+    .text2 {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .text2 h1 {
+        font-size: 24px;
+    }
+
+    .text2 p {
+        font-size: 14px;
+    }
+
+    .text2 h5 {
+        font-size: 16px;
+    }
+
+    #types {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+        padding: 10px 0;
+        border-bottom: 2px solid #ddd; 
+    }
+
+    #types li {
+        margin-bottom: 10px;
+    }
+
+    #types a {
+        padding: 8px 12px;
+        border-radius: 20px;
+        background-color: #f1f1f1; 
+        color: gray;
+        transition: background-color 0.3s, color 0.3s; 
+    }
+
+    #types a:hover {
+        background-color: skyblue;
+        color: white;
+    }
+
+    #mail{
+        width: 750px;
+    }
+
+    
+    #best {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    #best div {
+        text-align: center;
+        background-color: #f9f9f9; 
+        padding: 10px;
+        border-radius: 10px; 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s, box-shadow 0.3s; 
+    }
+
+    #best div:hover {
+        transform: scale(1.05); 
+        box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); 
+    }
+
+    #best img {
+        width: 100%;
+        max-width: 180px;
+        border-radius: 10px; 
+    }
+
+   
+    #best h4 {
+        font-size: 18px;
+        margin: 12px 0 5px;
+        font-weight: bold;
+        color: #333;
+        transition: color 0.3s;
+    }
+
+    #best h4:hover {
+        color: skyblue;
+    }
+
+    #best h5 {
+        font-size: 16px;
+        color: skyblue;
+        cursor: pointer;
+    }
+
+    #best h5:hover {
+        color: #333;
+    }
+
+    
+    h3 {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+        color: #333;
+        text-transform: uppercase; 
+        letter-spacing: 1px; 
+    }
+
+
+}
+
 
 
 @media (max-width: 576px) {
